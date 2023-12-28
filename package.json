@@ -1,0 +1,20 @@
+{
+  "name": "akqa",
+  "version": "1.0.0",
+  "description": "akqa test assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed":"npx playwright test --headed"
+  },
+  "author": "moustafa shoaib",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5"
+  },
+  "dependencies": {
+    "date-fns": "^3.0.6"
+  }
+}
